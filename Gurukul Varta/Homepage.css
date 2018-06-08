@@ -1,0 +1,158 @@
+body {
+  font-family: verdana;
+  margin: 0px;
+  padding: 0px;
+}
+
+#headerdiv {
+  width: 100%;
+  background-color: black;
+  padding-top: 120px;
+  padding-bottom: 130px;
+  z-index: 2;
+  position: relative;
+}
+
+#logo {
+  width: 95px;
+  height: 60px;
+}
+
+#name {
+  font-size: 22px;
+  font-family: Verdana;
+  color: white;
+}
+
+#namecell {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#tagline {
+  font-size: 14px;
+  font-family: Verdana;
+  color: white;
+}
+
+#headertable {
+  margin: 0 auto;
+  width: 300px;
+}
+
+#logobox {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#namecell {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#taglinebox {
+  text-align: center;
+  padding-top: 0px;
+}
+
+#navbtn {
+  position: fixed;
+  right: 35px;
+  top: 23px;
+  height: 35px;
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #dddddd;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #717171;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+
+#closeButton {
+  font-size: 44px;
+  color: #444444;
+}
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: 00px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+#secondaryheader {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 22px;
+  margin: auto;
+
+}
+
+#secLogo {
+  padding-left: 10px;
+  display: inline;
+}
+
+.secname {
+  position: absolute;
+  color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  display: inline;
+}
